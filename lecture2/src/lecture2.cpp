@@ -1,10 +1,8 @@
 #include <iostream>
 #include <iomanip> // for output manipulator std::setprecision()
-#include <cstdlib>
 
 int main()
 {
-    system("clear");
     // ################//
     //--- slide 12 ---//
     // ################//
@@ -25,7 +23,8 @@ int main()
     // ################//
     //--- slide 22 ---//
     // ################//
-    //  int number = 1;              // assignment
+    //  int number;                  // declaration
+    //  number = 1;                  // assignment
     //  std::cout << number << '\n'; // 1
     //  number = 2;                  // assignment
     //  std::cout << number << '\n'; // 2
