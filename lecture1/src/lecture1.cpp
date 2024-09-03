@@ -1,5 +1,14 @@
 #include <iostream>
+#include <cstdlib>
 
-int main() {
-    std::cout << "Hello world\n";
+/**
+ * @brief 
+ * 
+ * @return int 
+ */
+int main(){
+    system("clear");
+    std::cout << "===== lecture 1 =====" << '\n';
+    std::cout << "Hello Varad\n";
+    return 0;
 }
