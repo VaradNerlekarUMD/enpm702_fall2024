@@ -7,7 +7,9 @@ add_compile_options(-Wall)
 include_directories(lecture8/include)
 # Add executable
 add_executable(lecture8 
-    lecture8/src/main.cpp)
+    lecture8/src/main.cpp lecture8/src/date.cpp lecture8/src/engine.cpp
+    lecture8/src/driver.cpp
+    lecture8/src/vehicle.cpp)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
